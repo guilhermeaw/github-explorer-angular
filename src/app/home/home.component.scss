@@ -1,0 +1,86 @@
+.container {
+  height: 100%;
+  background-color: #f0f0f5;
+
+}
+
+.content-wrapper {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url("../../assets/github-background.svg");
+  background-size: cover;
+}
+
+header.header-box {
+  padding: 24px 0;
+}
+
+main.main-wrapper {
+  margin-top: 56px;
+
+  h1 {
+    width: 45%;
+    color: #3a3a3a;
+    font-size: 48px;
+  }
+}
+
+div.search-wrapper {
+  margin-top: 32px;
+  display: flex;
+
+  input {
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+    border: 0;
+    width: 50%;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 20px;
+    background-color: #48d361;
+    color: #fff;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 180px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #42b958;
+    }
+  }
+}
+
+div.repo-list {
+  margin-top: 40px;
+
+  ul {
+    list-style: none;
+
+    & + ul {
+      margin-top: 16px;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+
+      width: 65%;
+      padding: 16px;
+      background-color: #fff;
+
+      img {
+        width: 40px;
+        border-radius: 50%;
+      }
+
+      div {
+        margin-left: 16px;
+      }
+    }
+  }
+}
